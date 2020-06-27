@@ -45,7 +45,7 @@
 
 		<nav class="nav social">
 			<ul class="flat"><a href="https://github.com/liuyishen418" title="GitHub"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/yishen-liu-51956639/" title="LinkedIn"><i data-feather="linkedin"></i></a>
-				|<a href="https://liuyishen418.netlify.com/" class="blog_cv">[blog]</a>
+				|<a href="https://liuyishen418.netlify.app/" class="blog_cv">[blog]</a>
 				<a href="resume_yishen.pdf" class="blog_cv">[cv]</a>
 				
 				
@@ -61,8 +61,7 @@
 </div>
 
 			<div class="introduction"><span>
-		I am currently working at Fannie Mae. My main duty is to validate credit risk models in single family (SF) area such as
-  loss forecast and the model usages in various business forecasting processes and stress testing. Prior to joining Fannie Mae, I had
+		I am currently working at Fannie Mae. My main duty is to conduct loan performance analytics and forecasting in the single family area. Prior to joining Fannie Mae, I had
   experience working as an STC at the World Bank. I graduated from the PhD program in Economics at The George Washinton University in
   2016.
 	</span>
@@ -80,48 +79,30 @@
 	<h4>Projects</h4>
 	<ul>
 		<li>
-			<a href="" class="project"> Loss Forecast Model Validation</a>
+			<a href="" class="project"> COVID Forbearance Score Model</a>
 
 			
 
 			
 			<span class="project_description">
-				This model is used at Fannie Mae for simulating future book profile. In this project, we need to validate a set of
-        mortgage loan transition models (prepay, default, modification,
-        repurchase). Most of the these models are logistic regression models. We conduct full scope validation of these models by examining
-        the data cleaning logic, model performance (in/out-sample, under stress, etc.), and integrated model performance at application
-        level (this application is mostly built by SAS).
+				This model is used to help servicers scoring mortgage loans that are currently
+        in Forbearance due to COVID-pandemic. The model output is a score value that rank-orders the loans
+        by its potential likelihood of exiting the Forbearance plan.
 			</span>
 			
 
 		</li>
 		
 		<li>
-			<a href="" class="project"> Public Mortgage Cash Flow Model Validation</a>
+			<a href="" class="project"> COVID Forbearance takeup forecast model</a>
 
 			
 
 			
 			<span class="project_description">
-				This model is built based off Fannie Mae&rsquo;s public loan data. It is used for generating analytical results for
-        Fannie Mae&rsquo;s credit risk transfer (CRT) deals. In this project, we validated the model by examining its sampling logic, model
-        performance, variable selection (bench mark using machine learning methods), and integrated model performance at application
-        level (this application is mostly built by R).
-			</span>
-			
-
-		</li>
-		
-		<li>
-			<a href="" class="project"> Stress Testing Model Validation</a>
-
-			
-
-			
-			<span class="project_description">
-				Fannie Mae is required by its regulator, FHFA, to conduct stress testing on an annual basis. In this project (
-        recurring every year), we validate all models used in the stress testing process. The review activities include assumption validation,
-        sensitivity tests, and benchmark analysis.
+				This model is used to forecast future Forbearance takeup rates using modern
+        Machine Learning (ML) approaches. The model output is loan level forecasted FP loans at weekly
+        frequency and can be up to any arbirary forecast length specified by users.
 			</span>
 			
 
